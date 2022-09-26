@@ -1,5 +1,5 @@
 import axios from 'api/hrApi';
-
+//얍콩 테스트
 export const empDetailedSaga = action =>
     axios.get('/affair/empDetail', {
         params: {
